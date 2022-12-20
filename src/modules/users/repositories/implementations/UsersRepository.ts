@@ -40,7 +40,6 @@ class UsersRepository implements IUsersRepository {
   }
 
   turnAdmin(receivedUser: User): User {
-    console.log(receivedUser);
     // eslint-disable-next-line no-param-reassign
     receivedUser.admin = true;
     return receivedUser;
